@@ -1,23 +1,27 @@
 {
-  "name": "1-Passport-Example",
+  "name": "node-express-handlebars",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1",
+    "orm": "^5.0.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msurio/Node-Express-Handlebars.git"
+  },
+  "author": "Marc Anthony Surio",
   "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "2.4.3",
-    "express": "^4.17.0",
-    "express-session": "^1.16.1",
-    "mysql2": "^1.6.5",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
-    "sequelize": "^5.8.6"
-  }
+  "bugs": {
+    "url": "https://github.com/msurio/Node-Express-Handlebars/issues"
+  },
+  "homepage": "https://github.com/msurio/Node-Express-Handlebars#readme"
 }
