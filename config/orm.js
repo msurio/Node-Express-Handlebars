@@ -60,7 +60,7 @@ var orm = {
       translateSql(objColVals) +
       " WHERE " +
       condition;
-
+    //testing to see if it's working...
     console.log(dbQuery);
 
     connection.query(dbQuery, function(err, res) {
